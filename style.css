@@ -38,7 +38,28 @@ li {
     background-color: white;
 }
 
-.lien {
+.cta {
     background: linear-gradient(#8E86B5,#ACAEED);
     color:white;
+    border-radius: 50px;
+}
+
+.section-a-propos {
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
+}
+
+/*Création d'apparences dynamiques*/
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cta:hover {
+    text-decoration: none;
+    background: linear-gradient(#696484,#8788BA);
+}
+
+.lien-icone:hover {
+    opacity: 0.5;
 }
